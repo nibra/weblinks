@@ -14,7 +14,7 @@ defined('_JEXEC') or die;
  *
  * @since  1.0
  */
-class WeblinksViewCategory extends JViewCategoryfeed
+class WeblinksViewCategoryFeed extends JViewCategoryfeed
 {
 	/**
 	 * @var    string  The name of the view to link individual items to
