@@ -1,0 +1,16 @@
+<environment name="default">
+    <server type="nginx" offset="UTC"/>
+    <cache enabled="0" time="15" handler="file"/>
+    <debug system="1" language="1"/>
+    <meta description="Test installation" keywords="" showVersion="0" showTitle="1" showAuthor="1"/>
+    <sef enabled="0" rewrite="0" suffix="0" unicode="0"/>
+    <feeds limit="10" email="author"/>
+    <session lifetime="15" handler="database"/>
+    <users>
+        <user role="Super Administrator" realname="Super Administrator" username="superadmin" password="superadmin" email="superadmin@example.com"/>
+        <user role="Administrator" realname="Administrator" username="admin" password="admin" email="admin@example.com"/>
+        <user role="Manager" realname="Manager" username="manager" password="manager" email="manager@example.com"/>
+        <user role="Registered" realname="User One" username="user1" password="user1" email="user1@example.com"/>
+        <user role="Registered" realname="User Two" username="user2" password="user2" email="user2@example.com"/>
+    </users>
+</environment>

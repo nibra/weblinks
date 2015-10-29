@@ -1,0 +1,5 @@
+<environment name="j3-mysql">
+    <joomla version="3"/>
+    <server type="nginx"/>
+    <database driver="mysqli" name="joomla3" prefix="j3m_"/>
+</environment>
